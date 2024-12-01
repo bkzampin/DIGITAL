@@ -3,72 +3,119 @@
 <meta charset="UTF-8">
 
 <head>
-<!--- Created by Brianna Zampini on Nov 20 --->
-<title>Personal website</title>
-<link rel="stylesheet" href="https://use.typekit.net/atg3vfc.css">
+  <!--- Created by Brianna Zampini on Nov 20 --->
+  <title>Personal website</title>
+  <link rel="stylesheet" href="https://use.typekit.net/atg3vfc.css">
 
-<style> 
- 
+  <style> 
+    /* Header Section */
+    .header {
+      background-color: #e2f1fb; /* light blue */
+      text-align: center;
+    }
 
-  .header {
-    background-color: #e2f1fb; /* light blue */
-    text-align: center;
-
-   img {
+    .header img {
       width: 500px; /* Set the width of the image*/
       height: auto; /* Keep the aspect ratio */
       margin-left: 100px; /* Moves the image to the right */
-   }
-  }
+    }
 
-  .topnav {
-    overflow: hidden;
-    background-color: #aed1e3; /* dark blue */
-    display: flex; /* Use flexbox for horizontal layout */
-  }
+    /* Navbar Section */
+    .topnav {
+      overflow: hidden;
+      background-color: #aed1e3; /* dark blue */
+      display: flex; /* Use flexbox for horizontal layout */
+    }
 
-  .topnav a {
-    color: #493a2d; /* brown */
-    text-align: center;
-    padding: 10px;
-    font-size: 25px;
-    text-decoration: none;
-    width: 100%;
-   font-weight: bold; /* Make the text bold */
-  }
+    .topnav a {
+      color: #493a2d; /* brown */
+      text-align: center;
+      padding: 10px;
+      font-size: 25px;
+      text-decoration: none;
+      width: 100%;
+      font-weight: bold; /* Make the text bold */
+    }
 
-  .topnav a:hover {
-    background-color: #e2f1fb; /* light blue */
-    color: #493a2d; /* brown */
-  }
+    .topnav a:hover {
+      background-color: #e2f1fb; /* light blue */
+      color: #493a2d; /* brown */
+    }
 
-  .footer {
-    background-color: #e2f1fb;
-    padding: 10px;
-    text-align: center;
-  }
-  body {
-  background-color: #e2f1fb; /* Light gray background for the whole page */
-  font-family: "futura-pt", sans-serif;
-  }
+    /* Footer Section */
+    .footer {
+      background-color: #e2f1fb;
+      padding: 10px;
+      text-align: center;
+    }
 
+    /* Body and general page styling */
+    body {
+      background-color: #e2f1fb; /* Light gray background for the whole page */
+      font-family: "futura-pt", sans-serif;
+      margin: 0;
+    }
 
- 
-  
-</style>
+    /* Section Styling */
+    .section {
+      padding: 50px;
+      text-align: center;
+    }
+
+    /* First section with light blue background */
+    .section-1 {
+      background-color: #e2f1fb;
+    }
+
+    /* Second section with dark blue background */
+    .section-2 {
+      background-color: #aed1e3;
+    }
+
+    /* Third section with light blue background */
+    .section-3 {
+      background-color: #e2f1fb;
+    }
+
+  </style>
 
 </head>
   
 <body> 
   
+  <!-- Header Section -->
   <div class="header">
     <img src="port-folio.png" alt="portfolio" >
   </div>
   
+  <!-- Navbar Section -->
   <div class="topnav">
     <a href="#">PHYSICAL ART</a>
     <a href="#">DIGITAL ART</a>
     <a href="#">MARKETING</a>
+  </div>
+
+  <!-- First Section with light blue background -->
+  <div class="section section-1">
+    <h2>Section 1: Light Blue</h2>
+    <p>This is the first section with the light blue color.</p>
+  </div>
+
+  <!-- Second Section with dark blue background -->
+  <div class="section section-2">
+    <h2>Section 2: Dark Blue</h2>
+    <p>This is the second section with the dark blue color.</p>
+  </div>
+
+  <!-- Third Section with light blue background -->
+  <div class="section section-3">
+    <h2>Section 3: Light Blue</h2>
+    <p>This is the third section with the light blue color.</p>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <p>Footer</p>
   </div>
 
 </body>
