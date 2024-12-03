@@ -20,20 +20,19 @@
       margin-left: 100px; /* Moves the image to the right */
     }
 
-    /* Navbar Section */
+   /* Navbar Section */
     .topnav {
-      overflow: hidden;
-      background-color: #aed1e3; /* dark blue */
       display: flex; /* Use flexbox for horizontal layout */
+      background-color: #aed1e3; /* dark blue */
     }
 
     .topnav a {
+      flex: 1; /* Allow the links to grow and fill the space */
       color: #493a2d; /* brown */
       text-align: center;
       padding: 10px;
       font-size: 25px;
       text-decoration: none;
-      width: 100%;
       font-weight: bold; /* Make the text bold */
     }
 
@@ -76,6 +75,22 @@
     .section-3 {
       background-color: #e2f1fb;
     }
+    
+    h2 {
+   color: #493a2d;              /* Text color */
+  font-size: 90px;         /* Font size */
+  font-weight: bold;       /* Font weight */
+  margin: -40px 0;          /* Margin above and below */
+  text-align: right;      /* Center the text */
+
+}
+      h3 {
+  color: #493a2d;              /* Text color */
+  font-size: 90px;         /* Font size */
+  font-weight: bold;       /* Font weight */
+  margin: -40px 0;          /* Margin above and below */
+  text-align: left;      /* Center the text */
+}
 
   </style>
 
@@ -85,7 +100,7 @@
   
   <!-- Header Section -->
   <div class="header">
-    <img src="port-folio.png" alt="portfolio" >
+    <img src="port-folio.png" alt="Portfolio Image" >
   </div>
   
   <!-- Navbar Section -->
@@ -97,19 +112,19 @@
 
   <!-- First Section with light blue background -->
   <div class="section section-1">
-    <h2>Section 1: Light Blue</h2>
+    <h2>TYPEFACE</h2>
     <p>This is the first section with the light blue color.</p>
   </div>
 
   <!-- Second Section with dark blue background -->
   <div class="section section-2">
-    <h2>Section 2: Dark Blue</h2>
+    <h3>CHARACTER</h3>
     <p>This is the second section with the dark blue color.</p>
   </div>
 
   <!-- Third Section with light blue background -->
   <div class="section section-3">
-    <h2>Section 3: Light Blue</h2>
+    <h2>WALKCYCLE</h2>
     <p>This is the third section with the light blue color.</p>
   </div>
 
@@ -119,5 +134,4 @@
   </div>
 
 </body>
-
 </html>
