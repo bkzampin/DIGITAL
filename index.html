@@ -75,6 +75,7 @@
     /* Second section with dark blue background */
     .section-2 {
       background-color: #aed1e3;
+      height: 500px; /* Set the height of the section */
     }
 
     /* Third section with light blue background */
@@ -92,32 +93,39 @@
 }
       h3 {
   color: #493a2d;              /* Text color */
-  font-size: 110px;         /* Font size */
+  font-size: 160px;         /* Font size */
   font-weight: bold;       /* Font weight */
-  margin: -40px 70px 0;          /* Margin above and below */
+  margin: -40px 0px 0;          /* Margin above and below */
   text-align: left;      /* Center the text */
 }
     
 .section-1 img { 
-  width: 450px; /* Set the width of the image */
+  width: 600px; /* Set the width of the image */
   height: auto; /* Keep the aspect ratio */
-  display: block; /* Make the image a block element */
-  margin: 0 auto; /* Center the image */
+  display: inline; /* Set display to inline to allow text wrapping */
+  margin: -150px 0px 0px 200px; /* Remove margin to the sides */
+  float: left; /* Float the image to the left */
 }
     
 .p1 {
   color: #493a2d; /* Text color */
   font-size: 35px; /* Font size */
-  text-align: left; /* Text alignment */
-  overflow: hidden; /* Clear float issue */
- margin: -900px 0px 70px 1100px;          /* Margin above and below */
+ margin: 40px 110px 0px 0px;          /* Margin above and below */
+  text-align: right;      /* Center the text */
 }
-    
+    .section-2 img { 
+  width: 1000px; /* Set the width of the image */
+  height: auto; /* Keep the aspect ratio */
+  display: inline; /* Set display to inline to allo text wrapping */
+   
+      margin: -150px 0px 110px 500px
+
+}
         .p2 {
-  color: #493a2d;                   /* Text color */
-  font-size: 25px;               /* Font size */
-  margin: 40px 70px 0;                /* Margin above and below the paragraph */
-  text-align: left;              /* Align the text */
+  color: #493a2d; /* Text color */
+  font-size: 35px; /* Font size */
+ margin: -400px 110px 0px 110px;          /* Margin above and below */
+  text-align: left;      /* Center the text */
 }
   </style>
 
@@ -152,6 +160,7 @@ Completed: 10/23/22</p>
   <!-- Second Section with dark blue background -->
   <div class="section section-2">
     <h3>CHARACTER</h3>
+     <img src="face.png" alt="character Image" >
     <p class="p2">
        Character design<br>
       Media: Digital <br>
@@ -165,7 +174,7 @@ Completed: 08/05/23
   <!-- Third Section with light blue background -->
   <div class="section section-3">
     <h2>WALKCYCLE</h2>
-<p class="p1">Character Animation<br>
+<p class="p3">Character Animation<br>
   Media: Digital <br>
 Made on After Effects <br>
 Completed: 09/05/23 </p>
