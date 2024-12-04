@@ -64,19 +64,13 @@
     }
 
     /* First section with light blue background */
-    .section-1 {
-      background-color: #e2f1fb;
-
-height: 500px
-    }
-    
-     .section-1 img { 
-  width: 500px; /* Set the width of the image */
-  height: auto; /* Keep the aspect ratio */
-  float: left; /* Float the image to the left */
-  margin: 0px 20px 0px 200px;
-
+  .section-1 {
+  background-color: #e2f1fb;
+  height: 500px; /* Set the height of the section */
+  overflow: hidden; /* Clear floats inside the section */
 }
+    
+
     
     /* Second section with dark blue background */
     .section-2 {
@@ -103,13 +97,22 @@ height: 500px
   margin: -40px 70px 0;          /* Margin above and below */
   text-align: left;      /* Center the text */
 }
-
+    
+.section-1 img { 
+  width: 450px; /* Set the width of the image */
+  height: auto; /* Keep the aspect ratio */
+  display: block; /* Make the image a block element */
+  margin: 0 auto; /* Center the image */
+}
+    
 .p1 {
   color: #493a2d; /* Text color */
-  font-size: 25px; /* Font size */
+  font-size: 35px; /* Font size */
   text-align: left; /* Text alignment */
-  float: left; /* Float the paragraph to the left */
+  overflow: hidden; /* Clear float issue */
+ margin: -900px 0px 70px 1100px;          /* Margin above and below */
 }
+    
         .p2 {
   color: #493a2d;                   /* Text color */
   font-size: 25px;               /* Font size */
